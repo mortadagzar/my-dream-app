@@ -11,7 +11,7 @@ import { thirdappComponent } from './thirdapp/thirdapp.component';
     AppComponent,
     ServerComponent,
     ServerlolComponent,
-    thirdapp
+    thirdapp,
   ],
   imports: [
     BrowserModule,
