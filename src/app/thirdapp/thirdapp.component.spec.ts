@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { thirdappComponent } from './thirdapp.component';
+import { ThirdappComponent } from './thirdapp.component';
 
-describe('thirdappComponent', () => {
-  let component: thirdappComponent;
-  let fixture: ComponentFixture<thirdappComponent>;
+describe('ThirdappComponent', () => {
+  let component: ThirdappComponent;
+  let fixture: ComponentFixture<ThirdappComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ thirdappComponent ]
+      declarations: [ ThirdappComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(thirdappComponent);
+    fixture = TestBed.createComponent(ThirdappComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
