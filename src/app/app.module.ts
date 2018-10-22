@@ -14,8 +14,6 @@ import { SecappComponent } from './secapp/secapp.component';
     ServerComponent,
     ServerlolComponent,
     ThirdappComponent
-
-
   ],
   imports: [
     BrowserModule,
