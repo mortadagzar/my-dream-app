@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  serverCreationsstatue='No server created value!';
   title = 'mortadaali';
   name= 'mortada gabi';
+  Creationsstatue(){
+    this.serverCreationsstatue='server created successfuly!';
+  }
 }
