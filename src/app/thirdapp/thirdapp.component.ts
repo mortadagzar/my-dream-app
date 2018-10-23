@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./thirdapp.component.css']
 })
 export class ThirdappComponent implements OnInit {
+  serverCreationsstatue='No server created value!';
 
   constructor() { }
 
