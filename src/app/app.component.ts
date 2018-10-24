@@ -9,7 +9,7 @@ export class AppComponent {
   serverCreationsstatue='No server created value!';
   title = 'mortadaali';
   name= 'mortada gabi';
-  Creationsstatue(){
+  Creationsstatue(event:any){
     this.serverCreationsstatue='server created successfuly!';
   }
 }

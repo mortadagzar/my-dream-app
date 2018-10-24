@@ -16,7 +16,7 @@
     <div class="col-lg-2 col-md-2 col-sm-12">
       </div>
               <div class="col-lg-8 col-md-8 col-sm-12 cont1">
-                  <input type="text" class="form-control" id="usr">
+                  <input type="text" class="form-control" id="usr" (input)="Creationsstatue($event)">
                 <button type="button" class="btn btn-warning mt-4" (click)='Creationsstatue()'>Add server</button>
                     {{serverCreationsstatue}}
               </div>
