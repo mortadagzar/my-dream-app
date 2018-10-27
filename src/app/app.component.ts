@@ -11,6 +11,6 @@ export class AppComponent {
   title = 'mortadaali';
   name= 'mortada gabi';
   Creationsstatue(event:any){
-    this.serverCreationsstatue='server created successfuly!';
+    this.serverCreationsstatue='humm ok';
   }
 }
