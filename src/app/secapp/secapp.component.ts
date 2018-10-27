@@ -10,6 +10,7 @@ export class SecappComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 
