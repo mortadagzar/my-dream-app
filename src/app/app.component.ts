@@ -13,4 +13,9 @@ export class AppComponent {
   Creationsstatue(event:any){
     this.serverCreationsstatue='humm ok';
   }
+
+
+
+
+
 }
