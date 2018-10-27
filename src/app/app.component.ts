@@ -14,9 +14,4 @@ export class AppComponent {
     this.serverCreationsstatue='humm ok';
   }
 
-
-
-
-
-
 }
