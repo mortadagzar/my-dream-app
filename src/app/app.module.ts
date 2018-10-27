@@ -7,6 +7,7 @@ import { ServerlolComponent } from './serverlol/serverlol.component';
 import { ThirdappComponent } from './thirdapp/thirdapp.component';
 import { SecappComponent } from './secapp/secapp.component';
 import { FifthappComponent } from './fifthapp/fifthapp.component';
+import { TtyComponent } from './tty/tty.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FifthappComponent } from './fifthapp/fifthapp.component';
     ServerComponent,
     ServerlolComponent,
     ThirdappComponent,
-    FifthappComponent
+    FifthappComponent,
+    TtyComponent
   ],
   imports: [
     BrowserModule,
